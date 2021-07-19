@@ -1,0 +1,112 @@
+<!doctype HTML>
+<html>
+	<head>
+		<title>
+		CREATING TABLE
+		</title>
+	</head>
+	<body>
+		<table>
+			<caption>STUDENT Details</caption>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Roll No
+					<th>Class</th>
+					<th>Percentage</th>
+					<th>Remarks</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Amit</td>
+					<td>25254</td>
+					<td>12th</td>
+					<td>70%</td>
+					<td>Very Good</td>
+				</tr>
+				<tr>
+					<td>Vikas</td>
+					<td>85458</td>
+					<td>12th</td>
+					<td>50%</td>
+					<td>Below Average</td>
+				</tr>
+				<tr>
+					<td>Rohit</td>
+					<td>25256</td>
+					<td>11th</td>
+					<td>80%</td>
+					<td>Too Good</td>
+				</tr>
+				<tr>
+					<td>Samar</td>
+					<td>96585</td>
+					<td>10th</td>
+					<td>60%</td>
+					<td>Average</td>
+				</tr>
+				<tr>
+					<td>Naresh</td>
+					<td>85465</td>
+					<td>9th</td>
+					<td>65%</td>
+					<td>Average</td>
+				</tr>
+			</tbody>
+		</table>
+		<BR><BR>
+			AFTER MERGING
+		<BR><BR>
+
+		<table>
+			<caption>STUDENT Details</caption>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Roll No
+					<th>Class</th>
+					<th COLSPAN ="2">Percentage</th>
+					<!-- <th >Remarks</th> -->
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Amit</td>
+					<td>25254</td>
+					<td rowspan="2">12th</td>
+					<td>70%</td>
+					<td>Very Good</td>
+				</tr>
+				<tr>
+					<td>Vikas</td>
+					<td>85458</td>
+					<!-- <td >12th</td> -->
+					<td>50%</td>
+					<td>Below Average</td>
+				</tr>
+				<tr>
+					<td>Rohit</td>
+					<td>25256</td>
+					<td>11th</td>
+					<td>80%</td>
+					<td>Too Good</td>
+				</tr>
+				<tr>
+					<td>Samar</td>
+					<td>96585</td>
+					<td>10th</td>
+					<td>60%</td>
+					<td>Average</td>
+				</tr>
+				<tr>
+					<td>Naresh</td>
+					<td>85465</td>
+					<td>9th</td>
+					<td>65%</td>
+					<td>Average</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
